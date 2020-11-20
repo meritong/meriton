@@ -1,0 +1,67 @@
+{
+    "resources": [
+        {
+            "name": "i18n/i18n_en.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_en"
+        },
+        {
+            "name": "i18n/i18n_no.properties",
+            "raw": "i18n/i18n.properties",
+            "locale": "_no"
+        },
+        {
+            "name": "controller/Main.controller.js"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "manifest-bundle.zip"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "model/models-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/Main-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "Component-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "../../../sap-ui-version.json"
+        },
+        {
+            "name": "neo-app.json"
+        },
+        {
+            "name": "di.code-validation.core_issues.json"
+        },
+        {
+            "name": "view/Main.view.xml"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "index.html"
+        }
+    ]
+}
