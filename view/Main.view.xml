@@ -1,0 +1,45 @@
+<mvc:View controllerName="no.meriton.Home.controller.Main" xmlns:mvc="sap.ui.core.mvc" xmlns:grid="sap.ui.layout.cssgrid" xmlns:f="sap.f"
+	displayBlock="true" xmlns="sap.m">
+	<Shell id="shell" appWidthLimited="false">
+		<App id="app">
+			<pages>
+				<Page showHeader="false" enableScrolling="false">
+					<VBox class="sapUiSmallMargin centered">
+						<f:GridContainer id="demoGrid" class="sapUiSmallMargin">
+							<f:layout>
+								<f:GridContainerSettings rowSize="84px" columnSize="84px" gap="8px"/>
+							</f:layout>
+							<f:layoutXS>
+								<f:GridContainerSettings rowSize="70px" columnSize="70px" gap="8px"/>
+							</f:layoutXS>
+							<GenericTile id="oCv" header="Meriton Gashi" subheader="SAP / UX Consultant" press="onPressCv">
+								<layoutData>
+									<f:GridContainerItemLayoutData minRows="2" columns="2"/>
+								</layoutData>
+								<TileContent footer="CV">
+									<ImageContent src="sap-icon://employee-pane"/>
+								</TileContent>
+							</GenericTile>
+							<GenericTile header="Covid19" subheader="API Handling" press="onPressCovid19">
+								<layoutData>
+									<f:GridContainerItemLayoutData minRows="2" columns="2"/>
+								</layoutData>
+								<TileContent footer="Application">
+									<ImageContent src="sap-icon://geographic-bubble-chart"/>
+								</TileContent>
+							</GenericTile>
+							<GenericTile header="QR / Barcode" subheader="" press="onPressQRBarcode">
+								<layoutData>
+									<f:GridContainerItemLayoutData minRows="2" columns="2"/>
+								</layoutData>
+								<TileContent footer="Application">
+									<ImageContent src="sap-icon://bar-code"/>
+								</TileContent>
+							</GenericTile>
+						</f:GridContainer>
+					</VBox>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

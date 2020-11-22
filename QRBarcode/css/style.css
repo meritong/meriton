@@ -1,0 +1,27 @@
+/* Enter your custom styles here */
+
+.topMargin {
+    margin-top: 30px !important;
+}
+
+.flexIt {
+    overflow: hidden!important;
+    height: 100% !important;
+}
+
+.paddingLeftRight {
+    padding: 0 1rem;
+}
+
+.Hidden {
+    visibility: hidden;
+}
+
+@media (min-width: 1280px) {
+    html.sap-desktop .sapMShellAppWidthLimited .sapMShellCentralBox {
+        width: 900px;
+        margin-left: -430px;
+        left: 50%;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+}

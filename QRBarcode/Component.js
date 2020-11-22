@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/Device","no/meriton/BarcodeGenerator/model/models"],function(e,t,i){"use strict";return e.extend("no.meriton.BarcodeGenerator.Component",{metadata:{manifest:"json"},init:function(){e.prototype.init.apply(this,arguments);this.getRouter().initialize();this.setModel(i.createDeviceModel(),"device")}})});
